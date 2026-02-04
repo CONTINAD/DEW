@@ -150,6 +150,24 @@ const Index = () => {
         </div>
       </div>
 
+      {/* DexScreener Chart Section */}
+      <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 py-20">
+        <h2 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-8 tracking-wide">
+          CHART
+        </h2>
+        <div className="w-full max-w-5xl bg-card/90 backdrop-blur-sm rounded-3xl p-4 border-2 border-primary/20 shadow-xl">
+          {/* Replace YOUR_CONTRACT_ADDRESS with your actual CA when ready */}
+          <iframe
+            src="https://dexscreener.com/solana/YOUR_CONTRACT_ADDRESS?embed=1&theme=dark&trades=0&info=0"
+            className="w-full h-[500px] md:h-[600px] rounded-2xl"
+            title="DexScreener Chart"
+          />
+        </div>
+        <p className="mt-6 text-muted-foreground text-sm">
+          Chart powered by DexScreener
+        </p>
+      </div>
+
       {/* Footer */}
       <div className="relative z-10 py-12 text-center">
         <p className="font-display text-2xl md:text-3xl text-primary tracking-widest mb-4">

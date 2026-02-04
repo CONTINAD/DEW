@@ -50,7 +50,7 @@ const Index = () => {
         {/* CA TBA Text */}
         <div className="mt-8 px-8 py-4 bg-card/80 backdrop-blur-sm rounded-2xl border-2 border-primary/30 shadow-xl">
           <p className="font-display text-3xl md:text-4xl lg:text-5xl text-primary tracking-widest animate-pulse">
-            ca tba
+            CA TBA
           </p>
         </div>
 
@@ -70,7 +70,7 @@ const Index = () => {
       {/* How to Buy Section */}
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 py-20">
         <h2 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-16 tracking-wide">
-          how to buy
+          HOW TO BUY
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl w-full">
@@ -82,7 +82,7 @@ const Index = () => {
             <div className="text-center">
               <span className="font-display text-6xl text-primary/30">1</span>
               <h3 className="font-display text-2xl text-foreground mt-2 mb-4">
-                download phantom
+                DOWNLOAD PHANTOM
               </h3>
               <p className="text-muted-foreground">
                 Get the Phantom wallet from{" "}
@@ -106,7 +106,7 @@ const Index = () => {
             <div className="text-center">
               <span className="font-display text-6xl text-primary/30">2</span>
               <h3 className="font-display text-2xl text-foreground mt-2 mb-4">
-                buy solana
+                BUY SOLANA
               </h3>
               <p className="text-muted-foreground">
                 Purchase SOL on{" "}
@@ -131,7 +131,7 @@ const Index = () => {
             <div className="text-center">
               <span className="font-display text-6xl text-primary/30">3</span>
               <h3 className="font-display text-2xl text-foreground mt-2 mb-4">
-                buy $DEW
+                BUY $DEW
               </h3>
               <p className="text-muted-foreground">
                 Go to{" "}
@@ -153,7 +153,7 @@ const Index = () => {
       {/* DexScreener Chart Section */}
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 py-20">
         <h2 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-8 tracking-wide">
-          chart
+          CHART
         </h2>
         <div className="w-full max-w-5xl bg-card/90 backdrop-blur-sm rounded-3xl p-4 border-2 border-primary/20 shadow-xl">
           {/* Replace YOUR_CONTRACT_ADDRESS with your actual CA when ready */}
@@ -171,7 +171,7 @@ const Index = () => {
       {/* Footer */}
       <div className="relative z-10 py-12 text-center">
         <p className="font-display text-2xl md:text-3xl text-primary tracking-widest mb-4">
-          ca: tba
+          CA: TBA
         </p>
         <p className="text-muted-foreground/50 text-sm">
           © 2025 Dew Coin

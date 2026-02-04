@@ -16,16 +16,16 @@ const Index = () => {
         <StarOfDavid className="absolute top-[15%] left-[3%] w-20 h-20 text-primary/10 animate-float" style={{ animationDelay: '0s' }} />
         <StarOfDavid className="absolute top-[45%] left-[6%] w-24 h-24 text-primary/12 animate-float" style={{ animationDelay: '2s' }} />
         <StarOfDavid className="absolute top-[75%] left-[4%] w-18 h-18 text-primary/8 animate-float" style={{ animationDelay: '1.5s' }} />
-        
+
         {/* Right side stars */}
         <StarOfDavid className="absolute top-[25%] right-[4%] w-28 h-28 text-primary/10 animate-float" style={{ animationDelay: '1s' }} />
         <StarOfDavid className="absolute top-[55%] right-[6%] w-20 h-20 text-primary/12 animate-float" style={{ animationDelay: '0.5s' }} />
         <StarOfDavid className="absolute top-[85%] right-[3%] w-22 h-22 text-primary/10 animate-float" style={{ animationDelay: '2.5s' }} />
-        
+
         {/* Far left edge */}
         <StarOfDavid className="absolute top-[35%] left-[1%] w-16 h-16 text-primary/8 animate-float" style={{ animationDelay: '3s' }} />
         <StarOfDavid className="absolute top-[65%] left-[2%] w-14 h-14 text-primary/6 animate-float" style={{ animationDelay: '1.8s' }} />
-        
+
         {/* Far right edge */}
         <StarOfDavid className="absolute top-[12%] right-[2%] w-16 h-16 text-primary/8 animate-float" style={{ animationDelay: '0.8s' }} />
         <StarOfDavid className="absolute top-[70%] right-[1%] w-18 h-18 text-primary/10 animate-float" style={{ animationDelay: '2.2s' }} />
@@ -35,7 +35,7 @@ const Index = () => {
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-4">
         {/* Title */}
         <h1 className="font-display text-8xl md:text-9xl lg:text-[12rem] text-foreground animate-pulse-glow tracking-wider mb-4">
-          DEW
+          dew
         </h1>
 
         {/* Floating Mascot */}
@@ -86,9 +86,9 @@ const Index = () => {
               </h3>
               <p className="text-muted-foreground">
                 Get the Phantom wallet from{" "}
-                <a 
-                  href="https://phantom.com" 
-                  target="_blank" 
+                <a
+                  href="https://phantom.com"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:underline font-semibold"
                 >
@@ -110,9 +110,9 @@ const Index = () => {
               </h3>
               <p className="text-muted-foreground">
                 Purchase SOL on{" "}
-                <a 
-                  href="https://moonpay.com" 
-                  target="_blank" 
+                <a
+                  href="https://moonpay.com"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:underline font-semibold"
                 >
@@ -135,9 +135,9 @@ const Index = () => {
               </h3>
               <p className="text-muted-foreground">
                 Go to{" "}
-                <a 
-                  href="https://pump.fun" 
-                  target="_blank" 
+                <a
+                  href="https://pump.fun"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:underline font-semibold"
                 >

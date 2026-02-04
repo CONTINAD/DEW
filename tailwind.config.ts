@@ -64,7 +64,7 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        display: ['Bangers', 'cursive'],
+        display: ['Chewy', 'cursive'],
         sans: ['Poppins', 'sans-serif'],
       },
       keyframes: {
@@ -77,11 +77,11 @@ export default {
           to: { height: "0" },
         },
         "pulse-glow": {
-          "0%, 100%": { 
+          "0%, 100%": {
             textShadow: "0 0 20px hsl(35 80% 50% / 0.8), 0 0 40px hsl(35 80% 50% / 0.6)",
             transform: "scale(1)"
           },
-          "50%": { 
+          "50%": {
             textShadow: "0 0 30px hsl(35 80% 50% / 1), 0 0 60px hsl(35 80% 50% / 0.8)",
             transform: "scale(1.02)"
           },
